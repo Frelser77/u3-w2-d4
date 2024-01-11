@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import CommentArea from "../components/CommentArea";
 
 // Mock per simulare il libro selezionato
-const mockBook = { asin: "123", title: "Test Book" };
+const mockBook = { asin: "0316438960", title: "Test Book" };
 
 describe("CommentArea component", () => {
 	it("renders correctly with comments", async () => {

@@ -3,7 +3,7 @@ import { render, fireEvent, screen } from "@testing-library/react";
 import BookList from "../components/BookList";
 
 const mockSelectedBookWithComments = {
-	asin: "123",
+	asin: "0316438960",
 	img: "url-to-image",
 	title: "Test Book",
 	price: "10",

@@ -5,7 +5,7 @@ import SingleBook from "../components/SingleBook";
 describe("SingleBook component", () => {
 	it("border changes color on click", () => {
 		const mockBook = {
-			asin: "123",
+			asin: "0316438960",
 			img: "url-to-image",
 			title: "Test Book",
 			price: "10",
